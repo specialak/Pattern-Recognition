@@ -1,4 +1,4 @@
-# Text-Recognition
+# Text-Extraction
 
 ### (Ashish Kumar, Aaditya Vikram, Rahul Vishnoi,Malikaa Singh) 
 
