@@ -26,6 +26,7 @@
 		$query=mysqli_query($con,$insert);
 		if($query){
 			echo "<h3 style='width:400px; text-align:justify;'>Please check your email for the verification link</h3>";
+			echo "<script>alert('Account Created Successfully!!');</script>";
 		}
 		else{
 			echo "Registration Failed!!!!";

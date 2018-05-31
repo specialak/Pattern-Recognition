@@ -32,8 +32,8 @@
                 <ul class="header-nav__list">
                     <li class="current"><a class="smoothscroll" href="#home" title="home">Home</a></li>
 					<li class="current"><a class="smoothscroll"  href="#map" title="map">Find Us Here</a></li>
-					<li class="current"><a href="login-form.php" title="login">Login</a></li>
-					<li class="current"><a href="register-form.php" title="signup">Sign Up</a></li>
+					<li class="current"><a href="login-form.php" title="login" target="_blank">Login</a></li>
+					<li class="current"><a href="register-form.php" title="signup"  target="_blank">Sign Up</a></li>
 				</ul>
 				<ul class="header-nav__social">
                     <li>
@@ -66,7 +66,7 @@
                     provided in Python.
                 </h2>
 				<div class="home-content__buttons">
-                    <a href="#translate" class="smoothscroll btn btn--stroke">
+                    <a href="#clients1" class="smoothscroll btn btn--stroke">
                         Go to Translate
                     </a>
                     <a href="#about" class="smoothscroll btn btn--stroke">
@@ -124,6 +124,50 @@
             </div>
 		</div>
 	</section>
+	
+	<section id="clients1" class="s-clients">
+		
+		 <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">Images</h3>
+                <h2 class="display-2">These are the images from which text has to be extracted :</h2>
+            </div>
+        </div>
+		
+        <div class="row clients-testimonials" data-aos="fade-up">
+            <div class="col-full">
+                <div class="testimonials">
+					<div class="testimonials__slide">
+						<a href="translateimage1.php" target="_blank"><img src="ocr/6.jpg" alt="Member" style="height:400px; width:400px; margin-left:28%;"></a>
+						<div class="testimonials__info">
+                            <span class="testimonials__name">Image 1</span> 
+                        </div>
+					</div>
+					<div class="testimonials__slide">
+						<a href="translateimage2.php" target="_blank"><img src="ocr/example_01.png" alt="Member" style="height:400px; width:400px; margin-left:28%;"></a>
+						<div class="testimonials__info">
+                            <span class="testimonials__name">Image 2</span> 
+                        </div>
+					</div>
+					<div class="testimonials__slide">
+						<a href="translateimage3.php" target="_blank"><img src="ocr/example_03.png" alt="Member" style="height:400px; width:400px; margin-left:28%;"></a>
+						<div class="testimonials__info">
+                            <span class="testimonials__name">Image 3</span> 
+                        </div>
+					</div>
+					<div class="testimonials__slide">
+						<a href="translateimage4.php" target="_blank"><img src="ocr/z.png" alt="Member" style="height:400px; width:400px; margin-left:28%;"></a>
+						<div class="testimonials__info">
+                            <span class="testimonials__name">Image 4</span> 
+                        </div>
+					</div>
+
+                </div>
+                
+            </div>
+        </div>
+
+    </section>
 	
 	<section id='translate' class="s-translate">
 		<div class="row section-header has-bottom-sep" data-aos="fade-up" style="margin-top:150px;">

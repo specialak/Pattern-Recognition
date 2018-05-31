@@ -82,10 +82,15 @@
                     </div>
 
                     <div class="form-row">
-                        <button name="sign_up">Register</button>
+                        <button name="sign_up" onclick="myFunction()">Register</button>
+						<!-- <script>
+							function myFunction() {
+								alert("Account Created Succesfully!!");
+							}
+						</script> -->
                     </div>
 				</div>
-				<a href="form-login.html" class="form-log-in-with-existing">Already have an account? Login here &rarr;</a>
+				<a href="login-form.php" class="form-log-in-with-existing">Already have an account? Login here &rarr;</a>
 			</div>
 
             <div class="form-sign-in-with-social">

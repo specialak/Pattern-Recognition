@@ -9,6 +9,7 @@
 		$check_user=mysqli_num_rows($query);
 		if($check_user==1){
 			$_SESSION['user_email']=$email;
+			echo "<script>alert('You are logged in!!');</script>";
 			echo "<script>window.open('index.php','_self')</script>";
 		}
 		else{

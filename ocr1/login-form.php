@@ -38,12 +38,17 @@
                     </div>
 
                     <div class="form-row">
-                        <button name="login">Log in</button>
+                        <button name="login" onclick="myFunction()">Log in</button>
+						<!-- <script>
+							function myFunction() {
+								alert("You are logged in!!");
+							}
+						</script> -->
                     </div>
 
                 </div>
 				<a href="#" class="form-forgotten-password">Forgotten password &middot;</a>
-                <a href="form-register.html" class="form-create-an-account">Create an account &rarr;</a>
+                <a href="register-form.php" class="form-create-an-account">Create an account &rarr;</a>
 			</div>
 			<div class="form-sign-in-with-social">
 				<div class="form-row form-title-row">
